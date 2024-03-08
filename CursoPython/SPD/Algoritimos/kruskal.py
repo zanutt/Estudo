@@ -49,6 +49,7 @@ while contagem_arestas < num_vertices - 1:
 print(custo_total)
 
 '''
+dados para teste
 9 14
 0 1 4
 0 7 8
