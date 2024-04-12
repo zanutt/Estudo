@@ -15,5 +15,5 @@ def max_array_sum(array, k):
 # Exemplo de uso
 if __name__ == '__main__':    
     array = [1000, -1500, 800, -2000]  # Valores iniciais dos ativos no portfólio
-    k = 1  # Número máximo de operações
+    k = 5  # Número máximo de operações
     print("Valor total do portfólio após", k, "operações:", max_array_sum(array, k))
