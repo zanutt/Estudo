@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #F8D629;
+}
+
+.topo{
+    margin-top: 57px;
+}
+
+.logo-text{
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-right: 130px;
+    margin-left: 140px;
+}
+
+.links-bar{
+    display: inline-block;
+}
+
+.links{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 38px;
+}
+
+.corpo{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.descricao{
+    margin: auto 0;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.descricao p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.agendar {
+    color: white;
+    margin-top: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    background: black;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Roboto;
+    padding: 27px 10px;
+    display: block;
+    width: 259px;
+    height: 84px;
+    text-align: center;
+}
