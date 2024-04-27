@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #2B2730;
+}
+
+body {
+    background: #F6F6F6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-content{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 32px;
+}
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-menu .esquerda{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.esquerda .logo{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.top-menu .direita{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-in{
+    margin-right: 100px;
+    background-color: #2B2730;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+}
+
+.dobra1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 99px;
+}
+.dobra1 .text{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.dobra1 .yellow{
+    color: #FFB84C;
+}
+
+.circle-img{
+    background-color: #F6F6F6;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 204px;
+    height: 204px;
+    margin-right: 137px;
+    position: relative;
+}
+
+.circle{
+    background-color: #2B2730;
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);     
+}
+
+.circle .inside-text{
+    font-size: 39.36px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.circle .text-second{
+    color: white;
+    font-size: 19.68px;
+    font-weight: 700;
+}
+
+.dobra2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+    margin-left: -100px;
+    width: 100vw;
+}
+
+.dobra2 .principal-img{
+    margin-left: 100px;
+    max-width: 90%;
+}
+
+.dobra2 .fundo{
+    display: flex;
+    background-color: #2B2730;
+    width: 100vw;
+    justify-content: center;
+    margin-top: -330px;
+    z-index: -1;
+    padding-bottom: 106px;
+    }
+
+.dobra2 .fundo .container{
+    display: flex;
+    width: 85%;
+    margin-top: 400px;
+    flex-direction: column;
+    
+}
+
+.dobra2 .fundo .texto p {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+
+.dobra2 .fundo .texto p span{
+    color: #FFB84C;
+}
+
+.cards-img{
+    margin-top: 116px;
+    display: flex;
+    gap: 32px;
+}
+
+.cards-img .card{
+    min-width: 30%;
+}
+
+.info{
+    display: flex;
+    margin-top: 116px;
+    justify-content: space-between;
+}
+
+.info .dados{
+    display: flex;
+    gap: 120px;
+}
+
+.info .dados .info-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFB84C;
+}
+
+.info .dados .lower{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+
+.info .explore{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.info .explore .text{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.dobra3 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-left: 30px;
+}
+
+.dobra3 .content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dobra3 .creator-box{
+    margin-top: 116px;
+    height: 276px;
+}
+
+.dobra3 .creator-box h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.4px;
+    margin-bottom: 24px;
+}
+
+.dobra3 .creator-box p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    margin-bottom: 24px;
+}
+
+
+.dobra3 .creator-box a{
+    background-color: #2B2730;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px 32px 16px 32px;
+    border-radius: 32px;
+}
+
+.dobra3 .quarter-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+    margin-right: 100px;
+    gap: 32px;
+    padding-bottom: 40px;
+}
+
+.dobra3 .quarter-box .double-box-top{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.dobra3 .quarter-box .double-box-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.bottom-box{
+    margin-top: 116px;
+    border-radius: 32px;
+    padding: 116px 0px;
+    background-color: #2B2730;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 100px; 
+}
+
+.bottom-box h2{
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.4px;
+    margin-bottom: 24px;
+}
+.bottom-box p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    margin-bottom: 24px;
+    align-self: center;
+}
+
+
+.bottom-box a{
+    background-color: #FFB84C;
+    color: #2B2730;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px 32px 16px 32px;
+    border-radius: 32px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    justify-content: space-between;
+}
+
+footer .social-media{
+    display: flex;
+    flex-direction: column;
+}
+footer .social-logos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 74px;
+    gap: 6px;
+}
+footer .columns{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-right: 100px;
+}
+
+footer .about{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+footer .for-creators{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+footer .learn{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+footer .support{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .p{
+    margin-top: -8px;
+}

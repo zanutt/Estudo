@@ -64,11 +64,11 @@ h1{
     color: white;
     margin-top: 18px;
     text-decoration: none;
-    border-radius: 30px;
     background: black;
     font-size: 24px;
     font-weight: 400;
     font-family: Roboto;
+    border-radius: 30px;
     padding: 27px 10px;
     display: block;
     width: 259px;
